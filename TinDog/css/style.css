@@ -1,0 +1,28 @@
+.gradient-background{
+    background: linear-gradient(500deg, rgb(215, 32, 142), rgb(37, 113, 160));
+    animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.icon-square{
+    width: 3em;
+    height: 3em;
+    border-radius: 10pt;
+}
+
+.dog_image{
+    height: 150px;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
